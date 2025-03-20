@@ -18,4 +18,21 @@ This project was developed in **Python 3.11**. To install the required dependenc
 
 ```bash
 pip install -r requirements.txt
+```
 
+## Dependencies
+
+The project relies on the following libraries:
+
+kagglehub
+pandas
+matplotlib
+seaborn
+python-dotenv
+langchain-community
+langchain-opencv
+langchain-chroma
+transformers
+gradio
+notebook
+ipywidgets
