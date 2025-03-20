@@ -1,4 +1,4 @@
-# Semantic Book Recommender with LLMs  
+# Semantic Book Recommender 
 
 This repository contains the code for a **Semantic Book Recommender**, an AI-powered system that recommends books based on natural language queries. The system leverages **large language models (LLMs)** and **vector search** to provide book recommendations based on themes, emotions, and classifications.  
 
