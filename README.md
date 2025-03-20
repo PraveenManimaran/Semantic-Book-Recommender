@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 The project relies on the following libraries:
 
-kagglehub
+- kagglehub
 pandas
 matplotlib
 seaborn
