@@ -1,29 +1,21 @@
-# Build a Semantic Book Recommender with LLMs – Full Course
+# Semantic Book Recommender with LLMs  
 
-This repo contains all of the code to complete the freeCodeCamp course, "Build a Semantic Book Recommender with LLMs – Full Course". There are five components to this tutorial:
-* Text data cleaning (code in the notebook `data-exploration.ipynb`)
-* Semantic (vector) search and how to build a vector database (code in the notebook `vector-search.ipynb`). This allows users to find the most similar books to a natural language query (e.g., "a book about a person seeking revenge").
-* Doing text classification using zero-shot classification in LLMs (code in the notebook `text-classification.ipynb`). This allows us to classify the books as "fiction" or "non-fiction", creating a facet that users can filter the books on. 
-* Doing sentiment analysis using LLMs and extracting the emotions from text (code in the notebook `sentiment-analysis.ipynb`). This will allow users to sort books by their tone, such as how suspenseful, joyful or sad the books are.
-* Creating a web application using Gradio for users to get book recommendations (code in the file `gradio-dashboard.py`).
+This repository contains the code for a **Semantic Book Recommender**, an AI-powered system that recommends books based on natural language queries. The system leverages **large language models (LLMs)** and **vector search** to provide book recommendations based on themes, emotions, and classifications.  
 
-This project was initially created in Python 3.11. In order to run the project, the following dependencies are required:
-* [kagglehub](https://pypi.org/project/kagglehub/)
-* [pandas](https://pypi.org/project/pandas/)
-* [matplotlib](https://pypi.org/project/matplotlib/)
-* [seaborn](https://pypi.org/project/seaborn/)
-* [python-dotenv](https://pypi.org/project/python-dotenv/)
-* [langchain-community](https://pypi.org/project/langchain-community/)
-* [langchain-opencv](https://pypi.org/project/langchain-opencv/)
-* [langchain-chroma](https://pypi.org/project/langchain-chroma/)
-* [transformers](https://pypi.org/project/transformers/)
-* [gradio](https://pypi.org/project/gradio/)
-* [notebook](https://pypi.org/project/notebook/)
-* [ipywidgets](https://pypi.org/project/ipywidgets/)
+## Features  
 
-A requirements.txt file containing all the project dependencies is provided as part of this repo.
+This project includes five main components:  
 
-In order to create your vector database, you'll need to create a .env file in your root directory containing your OpenAI API key. Instructions on how to do this are part of the tutorial.
+- **Text Data Cleaning**: Preprocessing book descriptions to improve the quality of semantic search (`data-exploration.ipynb`).  
+- **Semantic (Vector) Search**: Creating a vector database to find books most similar to a given query (e.g., "a book about a person seeking revenge") (`vector-search.ipynb`).  
+- **Zero-Shot Text Classification**: Categorizing books as "fiction" or "non-fiction" using LLM-based classification (`text-classification.ipynb`).  
+- **Sentiment & Emotion Analysis**: Extracting emotions from text to sort books by tone (e.g., suspenseful, joyful, sad) (`sentiment-analysis.ipynb`).  
+- **Interactive Web Application**: A user-friendly interface built with **Gradio** for easy book discovery (`gradio-dashboard.py`).  
 
-The data for this project can be downloaded from Kaggle. Instructions on how to do this are also in the repo.
+## Installation  
+
+This project was developed in **Python 3.11**. To install the required dependencies, use:  
+
+```bash
+pip install -r requirements.txt
 
