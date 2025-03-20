@@ -25,9 +25,9 @@ pip install -r requirements.txt
 The project relies on the following libraries:
 
 - kagglehub
-pandas
-matplotlib
-seaborn
+- pandas
+- matplotlib
+- seaborn
 python-dotenv
 langchain-community
 langchain-opencv
