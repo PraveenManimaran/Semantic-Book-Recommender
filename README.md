@@ -36,3 +36,41 @@ The project relies on the following libraries:
 - gradio
 - notebook
 - ipywidgets
+
+## Setup
+1. API Keys & Environment Variables
+
+- Create a .env file in the root directory.
+- Add your OpenAI API key following the format provided in the repo.
+
+2. Dataset
+
+- The dataset is available on Kaggle. Instructions for downloading and setting it up are provided in the repository.
+
+## Usage
+Once the setup is complete, you can run the web application with:
+
+```bash
+python gradio-dashboard.py
+```
+This will launch an interactive interface where users can input natural language queries to receive personalized book recommendations.
+
+## Future Enhancements
+
+Planned improvements include:
+
+- Expanding the dataset with more book metadata
+- Improving classification with fine-tuned models
+- Enhancing UI/UX for a more intuitive recommendation experience
+
+
+This project demonstrates how LLMs and semantic search can be leveraged to build powerful recommendation systems. Contributions and feedback are welcome! 🚀
+
+
+
+
+
+
+
+
+
