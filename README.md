@@ -28,11 +28,11 @@ The project relies on the following libraries:
 - pandas
 - matplotlib
 - seaborn
-python-dotenv
-langchain-community
-langchain-opencv
-langchain-chroma
-transformers
-gradio
-notebook
-ipywidgets
+- python-dotenv
+- langchain-community
+- langchain-opencv
+- langchain-chroma
+- transformers
+- gradio
+- notebook
+- ipywidgets
